@@ -1,7 +1,7 @@
 const express = require('express')
 
 // TODO: implement or import a proper decodeToken function
-const decodeToken = (req, res, next) => { next() }
+const { decodeToken } =require('authenticare/server')
 
 const db = require('../db/db')
 
