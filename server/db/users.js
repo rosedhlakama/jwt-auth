@@ -9,7 +9,8 @@ module.exports = {
   getUserByName
 }
 
-function createUser (username, password, db = connection) {
+function createUser (user, db = connection) {
+  const { username, password } = user
   return userExists(username, db)
     .then(exists => {
       if (exists) {

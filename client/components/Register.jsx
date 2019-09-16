@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { GridForm, ColOne, ColTwo, Button } from './Styled'
 
-import { iAuthenticated, register} from 'authenticare/client'
+import { isAuthenticated, register} from 'authenticare/client'
 
 // TODO: implement or import proper isAuthenticated and register functions=DONE
 
